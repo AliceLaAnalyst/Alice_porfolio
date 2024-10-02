@@ -133,7 +133,7 @@ ORDER BY 4 DESC;
 -- screenshot: CDP and Track have very high median income
 
 -- look at which state has the Communities (low income)
-SELECT *
+SELECT DISTINCT State_Name, type
 FROM ushouseholdincome
 WHERE Type  = 'Community';
 -- Puerto Rico！
